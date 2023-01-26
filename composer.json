@@ -1,0 +1,32 @@
+{
+    "name": "kitsunecode/twitter",
+    "description": "A PHP library for use with the Twitter OAuth REST API.",
+    "keywords": [
+      "KitsuneCode",
+      "KitsuneWS",
+      "Twitter",
+      "Publish",
+      "Edit",
+      "User"
+    ],
+    "homepage": "https://www.kitsunews.com",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Enos S. S. Silva",
+        "email": "devenos@icloud.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": ">=8.0",
+      "ext-simplexml": "*",
+      "composer/ca-bundle": "^1.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "KitsuneCode\\Twitter\\": "src"
+      }
+    }
+  }
+  
