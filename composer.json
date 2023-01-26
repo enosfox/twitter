@@ -19,8 +19,6 @@
       }
     ],
     "require": {
-      "php": ">=8.0",
-      "ext-simplexml": "*",
       "composer/ca-bundle": "^1.2"
     },
     "autoload": {
